@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css" integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/webp" href="../slider/worker image.webp">
+    <link rel="stylesheet" href="../css/subtitle.css">
+
+</head>
+<body>
+     <section>
+    <div class="top-nav-bar"> 
+        <div class="search-box">
+            <i class="fa fa-bars" aria-hidden="true" id="menu-btn" onclick="openmenu()"></i>
+            <i class="fa fa-times" aria-hidden="true" id="close-btn" onclick="closemenu()"></i>
+
+            <img src="../icon/website icon.png" class="logo" alt="Website logo">
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="bi bi-search"></i></span>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="bi bi-basket"></i>cart</a></li>
+                <li><a href="registration.html"><i class="bi bi-box-arrow-right"></i>sign up</a></li>
+                <li><a href="login.html"><i class="fa-regular fa-circle-user"></i>Login</a></li>
+            </ul>
+        </div>
+   
+    <!-- <section class="front-page">
+    <div class="subtitle" id="side-menu">
+         <li>On Sale<i class="fa-solid fa-angle-right"></i>
+            <div class="product-card">
+                <div class="product-top">
+                    <img src="/sunglasss/rayban junior ray ban juniorsole unisex metal sunglass rupee 3752 delrupy4690.avif" alt=" Black Sunglass">
+                     <h1>Black Sunglass</h1>
+                     <h1>$ 30.00</h1>
+                <div>
+                    <img src="/sunglasss/michal kors.avif" alt="Michal Kores Modern Sunglass">
+                    <h2>Michal Kores</h1>
+                    <h3>Modern</h2>
+                    <h4>$ 75.00     <del>$ 80.00</del></h2>
+                </div>
+                <div>
+                    <img src="/sunglasss/RALPH LAUREN - Ralph Women Injected Sunglass/1.avif" alt="ralph lauren">
+                    <h3>Ralph Lauren Inject Sunglass</h3>
+                    <h3>$ 200.00     <del>$ 250.00</del></h3>
+                </div>
+                <div>
+                    <img src="/sunglasss/Rayban Jbior Sole Unisex/1.avif" alt="Rayban Jbior">
+                    <h4>Rayban Jbior Sole Unisex</h4>
+                    <h4>$ 70.00 <del> $ 90.00</del></h4>
+                </div>
+                <div>
+                    <img src="/sunglasss/Emporio Armani/1.avif" alt="Emporio Armani - Emporio Armani Sunglasses">
+                    <h5>Emporio Armani - Emporio Armani Sunglasses</h5>
+                    <h5> $ 400.00  <del> $ 500.00</del></h5>
+                </div>
+                <div>
+                    <img src="/sunglasss/Michael Kors - Michael Kors Metal Woman Sunglass            Price inclusive of all taxes/1.avif" alt="Michael Kors">
+                    <h6>Michael Kors</h6>
+                    <p>Michael Kors Metal Woman Sunglass </p>
+                    <h6> $ 1200.00  <del> $ 1000.00</del></h6>
+                </div>
+            </div>
+                </div>
+        </div> -->
+
+
+    </div>
+    <div class="on-sale">
+    <div class="row g-4">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/rayban junior ray ban juniorsole unisex metal sunglass rupee 3752 delrupy4690.avif" alt=" Black Sunglass">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h1>Black Sunglass</h1>
+                                <p>$ 300.00 <del>$ 350.00</del></p>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/Emporio Armani/1.avif" alt="Emporio Armani">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Emporio Armani Unisex Sunglass</h3>
+                                <h5>$ 200.00 <del>$ 500.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/Michael Kors - Michael Kors Metal Woman Sunglass            Price inclusive of all taxes/1.avif" alt="Michael Kors">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Michael Kors Unisex Sunglass</h3>
+                                <h5>$ 2000.00 <del>$ 3000.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/RALPH LAUREN - Ralph Women Injected Sunglass/1.avif" alt="RALPH LAUREN">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Ralph Women Injected Sunglass</h3>
+                                <h5>$ 2500.00 <del>$ 2000.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/Rayban Jbior Sole Unisex/1.avif" alt="Rayban Jbior">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Rayban Jbior Sole UnisexSunglass</h3>
+                                <h5>$ 1200.00 <del>$ 1000.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/Hustlr  Blue Sky/1.webp" alt="Hustlr sunglass">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Hustlr - Blue Sky</h3>
+                                <h5>$ 1400.00 <del>$ 1200.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/Versace - Versace Sunglasses/1.avif" alt="Versace">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Versace</h3>
+                                <h5>$ 120.00 <del>$ 200.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/COACH - COACH Women Metal Sunglass/1.avif" alt="COACH ">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>COACH - COACH Women Metal Sunglass</h3>
+                                <h5>$ 12000.00 <del>$ 10000.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-md-4">
+                        <div class="product-card">
+                            <div class="product-top">
+                                <img src="/sunglasss/Burberry - 0BE442741128736/1.avif" alt="Burberry sunglass">
+                                <div class="overlay-right">
+                                    <button type="button" class="btn btn-secondary" title="Quick shop" aria-label="Quick shop"><i class="fa-solid fa-eye"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Wishlist" aria-label="Add to wishlist"><i class="fa-solid fa-heart"></i></button>
+                                    <button type="button" class="btn btn-secondary" title="Add to Cart" aria-label="Add to cart"><i class="fa-solid fa-shopping-cart"></i></button>
+                                </div>
+                            </div>
+                            <div class="product-button text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                                <h3>Burberry - 0BE442741128736</h3>
+                                <h5>$ 8000.00 <del>$ 7500.00</del></h5>
+                                <div class="product-actions">
+                                    <button type="button" class="sale-btn cart-btn"><i class="fa-solid fa-cart-shopping"></i>Add to Cart</button>
+                                    <button type="button" class="sale-btn wishlist-btn"><i class="fa-solid fa-heart"></i>Wishlist</button>
+                                    <button type="button" class="sale-btn shop-btn"><i class="fa-solid fa-bag-shopping"></i>Shop</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --sider-menu-width: clamp(190px, 15vw, 260px)
+}
